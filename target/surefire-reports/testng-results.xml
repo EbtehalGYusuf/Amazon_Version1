@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T21:36:38 EEST" name="Test Suite" finished-at="2025-06-01T21:37:29 EEST" duration-ms="50196">
+    <groups>
+    </groups>
+    <test started-at="2025-06-01T21:36:38 EEST" name=" Search In Youtube - Chrome" finished-at="2025-06-01T21:37:29 EEST" duration-ms="50196">
+      <class name="AmazonPurchase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:AmazonPurchase@71329995]" started-at="2025-06-01T21:36:38 EEST" name="setUp" finished-at="2025-06-01T21:36:41 EEST" duration-ms="2029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.eg/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="amazonPurchaseBeforeMethod()[pri:0, instance:AmazonPurchase@71329995]" started-at="2025-06-01T21:36:41 EEST" name="amazonPurchaseBeforeMethod" finished-at="2025-06-01T21:36:41 EEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPurchaseBeforeMethod -->
+        <test-method signature="case01_SearchFilterSelectSpecificVideo()[pri:0, instance:AmazonPurchase@71329995]" started-at="2025-06-01T21:36:41 EEST" name="case01_SearchFilterSelectSpecificVideo" finished-at="2025-06-01T21:37:00 EEST" duration-ms="19871" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [9] but found [8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [9] but found [8]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at AmazonPurchase.case01_SearchFilterSelectSpecificVideo(AmazonPurchase.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case01_SearchFilterSelectSpecificVideo -->
+        <test-method is-config="true" signature="amazonPurchaseAfterMethod()[pri:0, instance:AmazonPurchase@71329995]" started-at="2025-06-01T21:37:01 EEST" name="amazonPurchaseAfterMethod" finished-at="2025-06-01T21:37:28 EEST" duration-ms="27852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPurchaseAfterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonPurchase@71329995]" started-at="2025-06-01T21:37:28 EEST" name="tearDown" finished-at="2025-06-01T21:37:29 EEST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AmazonPurchase -->
+    </test> <!--  Search In Youtube - Chrome -->
+  </suite> <!-- Test Suite -->
+</testng-results>

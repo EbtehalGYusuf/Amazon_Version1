@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" parallel="methods" thread-count="5">
+    <test name=" Search In Youtube - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.amazon.eg/"/>
+        <classes>
+            <class name="AmazonPurchase"/>
+        </classes>
+    </test>
+</suite>

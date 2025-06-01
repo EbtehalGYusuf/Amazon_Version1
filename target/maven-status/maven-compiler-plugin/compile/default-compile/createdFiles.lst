@@ -1,0 +1,14 @@
+com\base\CartPageBase.class
+com\core\MainPage.class
+com\core\pages\SearchPage.class
+com\utils\AllureTestListener.class
+com\core\pages\AddressPopup.class
+com\utils\TestDataProvider.class
+com\base\SearchPageBase.class
+com\utils\DriverFactory.class
+com\base\SignInPageBase.class
+com\core\pages\CartPage.class
+com\core\pages\SignInPage.class
+com\utils\Configurations.class
+com\base\AddressPageBase.class
+com\base\MainPageBase.class

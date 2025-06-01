@@ -1,0 +1,1 @@
+{"uuid":"1f605670-fa09-478d-80f4-69f9c2afde7c","name":"com.utils.Configurations.setUp","children":["6fe6adfc-d381-41d2-b4d5-759bca46686d"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1748803257191,"stop":1748803259280}],"afters":[],"start":1748803257191,"stop":1748803259281}
